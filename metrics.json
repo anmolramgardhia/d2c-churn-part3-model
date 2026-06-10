@@ -1,0 +1,19 @@
+{
+  "model": "LightGBM",
+  "threshold": 0.5794634556223018,
+  "validation": {
+    "auc_roc": 0.8753914264118345,
+    "avg_precision": 0.8550612432959588
+  },
+  "test": {
+    "auc_roc": 0.8473639455782312,
+    "avg_precision": 0.8089977547783191,
+    "f1_score": 0.7818181818181819,
+    "precision": 0.7962962962962963,
+    "recall": 0.7678571428571429
+  },
+  "baseline_logistic_regression": {
+    "validation_auc_roc": 0.884677680596048,
+    "validation_avg_precision": 0.869048155553733
+  }
+}
